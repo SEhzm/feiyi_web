@@ -1,0 +1,34 @@
+.fullPage {
+  height: 100vh; /*一定要设置，保证占满*/
+  overflow: hidden; /*一定要设置，多余的先隐藏*/
+  background-color: rgb(189, 211, 186);
+}
+
+.fullPageContainer {
+  width: 100%;
+  height: 100vh;
+  transition: all linear 0.5s;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.section1 {
+  background-color: rgb(189, 211, 186);
+}
+
+.section2 {
+  background-color: rgb(44, 48, 43);
+}
+
+.section3 {
+  background-color: rgb(116, 104, 109);
+}
+
+.section4 {
+  background-color: rgb(201, 202, 157);
+}
